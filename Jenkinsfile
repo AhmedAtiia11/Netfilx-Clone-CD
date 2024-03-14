@@ -11,6 +11,7 @@ node {
             script {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                   // Don't Forget to give username and tokken to Jenkins
+                  
                     withCredentials([usernamePassword(credentialsId: 'github', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                       // give the configuration to git
                         sh "git config user.email ahmedatya1288@gmail.com"
