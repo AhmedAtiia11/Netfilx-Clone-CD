@@ -1,7 +1,7 @@
-# Java-Test-APP-Continuous-Delivery
+# Netfilx-Clone-APP-Continuous-Delivery
 
 ## Overview
-This repository serves as the Continuous Delivery (CD) pipeline for the Java Test Application. The CD process automates the deployment of the application, ensuring a seamless and efficient release cycle.
+This repository serves as the Continuous Delivery (CD) pipeline for the Nefilx Clone Application. The CD process automates the deployment of the application, ensuring a seamless and efficient release cycle.
 
 # Pipeline Steps
 
