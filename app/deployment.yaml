@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: ahmedatiia11/netfilx-clone:d8ce2e5
+        image: ahmedatiia11/netfilx-clone:080500d
         ports:
         - containerPort: 80
